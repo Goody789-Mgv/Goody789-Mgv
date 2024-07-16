@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------------------- */
+body {
+    background-color: blanchedalmond;
+}
+.page {
+    max-width: 1600px;
+    min-height: 100vh;
+    background-color: lightgreen;
+    margin: 0 auto;
+    padding: 50px 100px 50px;
+}
+.logo {
+    width: 400px;
+    transition: 1s;
+    /* transform: scale(0); */
+}
+.btn {
+    margin: 50px 0px;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: rgb(242, 255, 0);
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.btn:hover {
+    /* border: 3px solid red; */
+    background-color: brown;
+    color:rgb(242, 255, 0)
+}
+.btn:hover ~ .logo {
+    /* transform: translate(300px, 100px); */
+    /* transform: rotate(-60deg); */
+    /* transform: scale(1); */
+   /* transform: skew(-20deg, -20deg); */
+   transform:scale(.2) translate(600px, 0)  rorate(360deg);
+}
